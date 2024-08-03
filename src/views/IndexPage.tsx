@@ -1,3 +1,7 @@
-export default function indexPage() {
-    return <h1>indexPage</h1>
+export default function IndexPage() {
+    return (
+        <>
+            <h1>HOME</h1>
+        </>
+    )
 }
