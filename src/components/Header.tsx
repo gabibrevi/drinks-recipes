@@ -14,6 +14,7 @@ export default function Header() {
             [e.target.name]: e.target.value,
         })
     }
+    const showNotification = useAppStore((state) => state.showNotification)
 
     //Formular submit
     const getRecipesAPI = useAppStore((state) => state.getRecipesAPI)
@@ -23,7 +24,7 @@ export default function Header() {
 
         //TODO: Validations
         if (Object.values(searchFilters).includes('')) {
-            console.log('Todos los campos son obligatorios')
+            showNotification({ text: 'Todos los campos son obligatorios', error: true })
             return
         }
 
