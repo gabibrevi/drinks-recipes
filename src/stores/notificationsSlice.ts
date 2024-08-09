@@ -17,7 +17,7 @@ export const createNotificationsSlice: StateCreator<
     [],
     [],
     NotificationsSliceType
-> = (set, get, api) => ({
+> = (set, get) => ({
     notification: {
         text: '',
         error: false,
