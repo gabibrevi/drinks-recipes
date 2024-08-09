@@ -21,7 +21,7 @@ export const createNotificationsSlice: StateCreator<
     notification: {
         text: '',
         error: false,
-        show: true,
+        show: false,
     },
     showNotification: (payload) => {
         set({
