@@ -29,7 +29,7 @@ export default function Header() {
         }
 
         //Get API Recipes
-        const recipesAPI = getRecipesAPI(searchFilters)
+        getRecipesAPI(searchFilters)
     }
 
     //Path Locations
