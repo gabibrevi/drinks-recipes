@@ -1,4 +1,4 @@
-# Vite + React + React Router DOM + TypeScript + Zustand + ZOD + Axios and more.
+# Vite + React + React Router DOM + TypeScript + Tailwind + Zustand + ZOD + Axios and more.
 
 Drink Search Page
 
