@@ -1,4 +1,7 @@
-# Vite + React + React Router DOM + TypeScript + Tailwind + Zustand + ZOD + Axios and more.
+# Vite + React + React Router DOM + TypeScript + Tailwind CSS + Zustand + ZOD + Axios and more.
+
+This project leverages an API to provide detailed information about drink recipes. Built with modern technologies including Vite, React, TypeScript, Tailwind CSS, React Router, Zustand, and Zod, it offers a seamless and efficient user experience.
+
 
 Drink Search Page
 
