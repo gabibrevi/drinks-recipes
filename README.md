@@ -1,7 +1,14 @@
-# Vite + React + React Router DOM + TypeScript + Tailwind CSS + Zustand + ZOD + Axios and more.
+# Drinks Recipes App (Vite Server + React + TypeScript + React Router DOM  + Tailwind CSS + Zustand + ZOD + Axios and more.
 
-This project leverages an API to provide detailed information about drink recipes. Built with modern technologies including Vite, React, TypeScript, Tailwind CSS, React Router, Zustand, and Zod, it offers a seamless and efficient user experience.
+This project leverages an API to provide detailed information about drinks recipes. It offers a seamless and efficient user experience.
 
+Developed using React with TypeScript and Vite as the development server.
+Styled with Tailwind CSS for responsive and modern UI design.
+Utilized React Hooks such as useState, useMemo, useEffect, along with NavLink and useLocation from React-Router-Dom for navigation and route management.
+Managed state with Zustand, implementing the Slice Pattern to create modular and scalable multiple stores.
+Integrated Axios for API requests, with Zod to validate and handle API data types and schemas effectively.
+Leveraged Redux DevTools for monitoring and debugging state changes.
+Designed and built reusable and maintainable components throughout the application.
 
 Drink Search Page
 
